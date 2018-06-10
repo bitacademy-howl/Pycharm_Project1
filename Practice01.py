@@ -4,10 +4,10 @@ while True:
 
     if a.isdigit():
         a = int(a)
-        if(a%3 == 0 and a > 3):
+        if(a%3 == 0):
             print("3의 배수입니다.")
             break
-        elif(a%3 != 0 or a < 3):
+        elif(a%3 != 0):
             print("3의 배수가 아닙니다.")
 
     else:
